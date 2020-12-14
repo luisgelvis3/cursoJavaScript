@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>CADENAS DE TEXTO (STRING)</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure error at itaque porro labore. Dicta harum ipsam
+        quibusdam itaque nesciunt et, beatae odio molestiae iure, alias similique nisi! Qui, aut.</p>
+
+    <script>
+        let nombre = "Luis"
+        let apellido = 'Gelvis'
+        let saludo = new String("Hola mundo")
+        let lorem = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure error at itaque porro labore. Dicta harum ipsam quibusdam itaque nesciunt et, beatae odio molestiae iure, alias similique nisi! Qui, aut."
+
+        console.log(nombre, apellido, saludo)
+        console.log(nombre.toLocaleLowerCase())// imprime todo en minuscula
+        console.log(apellido.toLocaleUpperCase()) // imprimo todo en mayuscula
+        console.log(lorem.includes("amet")) // imprime  false o true si encuentra una palabara en la cadena de texto
+        console.log(lorem.trim())//elimina los espacios en blanco de la cadena de texto
+        console.log(lorem.split(" "))//genera un conjunto de elemtos separados por un caracter especial
+    </script>
+</body>
+
+</html>
